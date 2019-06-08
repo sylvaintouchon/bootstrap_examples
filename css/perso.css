@@ -1,0 +1,12 @@
+/* 
+    perso.css
+*/
+
+.fondVert{background-color: darkolivegreen; color: white;}
+
+.fontJaune{background-color: yellow; }
+
+.bordNoir{border: thin black solid; }
+.bordGrisFonce{border: thin gray solid; }
+.bordGrisClair{border: thin gray dotted; }
+.bordRouge{border: thin red solid; }

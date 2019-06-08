@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ListesDeroulantes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class='container'>
+            <div>
+                <section class='row col-md-12'>
+                    <h1>Listes Déroulantes</h1>
+                </section>
+            </div>
+
+            <div>
+                <section class='row col-md-3'>
+                    <select class="form-control" >
+                        <option>Paris</option>
+                        <option>Lyon</option>
+                        <option>Marseille</option>
+                    </select>
+                </section>
+                <section class='row col-md-offset-1 col-md-3'>
+                    <select class="form-control" multiple data-max-options="3">
+                        <option>Paris</option>
+                        <option>Lyon</option>
+                        <option>Marseille</option>
+                    </select>
+                </section>
+                <section class='row col-md-offset-1 col-md-3'>
+                    <!--                    <select class="form-control" data-live-search="true">-->
+                    <select class="form-control" multiple data-max-options="3">
+                        <optgroup label="Web">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                        </optgroup>
+                        <optgroup label="Développement">
+                            <option>PHP</option>
+                            <option>Java</option>
+                            <option>Python</option>
+                        </optgroup>
+                    </select>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
